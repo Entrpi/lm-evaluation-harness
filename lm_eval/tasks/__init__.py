@@ -344,6 +344,8 @@ TASK_REGISTRY = {
     # "sat": sat.SATAnalogies,
     **xcopa.construct_tasks(),
     **bigbench.create_all_tasks(),
+    **agieval.create_all_tasks(),
+    **alpaca_agieval.create_all_tasks(),
     **xstorycloze.create_all_tasks(),
     **xwinograd.create_all_tasks(),
     **pawsx.construct_tasks(),
