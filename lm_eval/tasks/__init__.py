@@ -67,6 +67,8 @@ from . import ceval
 from . import csatqa
 from . import haerae
 from . import cmmlu
+from . import agieval
+from . import alpaca_agieval
 
 ########################################
 # Translation tasks
